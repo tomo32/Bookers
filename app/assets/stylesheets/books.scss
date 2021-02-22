@@ -1,7 +1,7 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
+.top-head {
   margin: 30px;
 }
 
@@ -40,4 +40,16 @@ h7 {
 
 .show-footer {
   margin: 30px 0 0 30px;
+}
+
+.edit-head {
+  margin: 20px 0 10px 20px;
+}
+
+.edit-content {
+  margin-left: 20px;
+}
+
+.edit-footer {
+  margin-left: 20px;
 }
