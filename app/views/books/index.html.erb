@@ -9,19 +9,12 @@
       <tr>
         <td class="title"><%= book.title %></td>
         <td class="body"><%= book.body %></td>
-        <td class="link"><%= link_to "Show", book_path(:id) %></td>
-        <td class="link"><%= link_to "Edit", edit_book_path(:id) %></td>
+        <td class="link"><%= link_to "Show", "/books/#{book.id}" %></td>
+        <td class="link"><%= link_to "Edit", "/books/#{book.id}/edit" %></td>
       </tr>
     </div>
   <% end %>
 </table>
-
-
-
-
-
-
-
 
 <div class="new">
   <h3>New Book</h3>
